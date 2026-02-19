@@ -1,0 +1,88 @@
+* {
+  /* font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif; */
+  font-family: "Noto Sans", sans-serif;
+  border: none;
+  text-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  font-weight: 500;
+  font-size: 12.7px;
+}
+
+window#waybar {
+  background-color: #1f1723;
+  color: #bcb0b3;
+
+  padding: 0 5px;
+}
+
+.modules-right {
+  padding: 0 10px;
+}
+
+#clock {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+/* #custom-power { */
+/*   font-size: 15px; */
+/*   margin-left: 10px; */
+/*   margin-right: 10px; */
+/* } */
+
+#taskbar button {
+  min-width: 120px;
+
+  border-radius: 0;
+  border-bottom: 3px solid #3c2f52;
+  color: #bcb0b3;
+
+  transition-property: border-color;
+  transition-duration: 150ms;
+}
+
+#taskbar button.active {
+  border-bottom: 3px solid #bcb0b3;
+  color: #bcb0b3;
+}
+
+#workspaces button {
+  border-bottom: 3px solid #ffffff;
+
+  transition-property: border-color;
+  transition-duration: 150ms;
+}
+
+#workspaces button.active {
+  border-bottom: 3px solid #ffffff;
+}
+
+/* --- Launchers --- */
+
+#custom-term,
+#custom-browser,
+#custom-files {
+  padding: 0 12px;
+  color: #bcb0b3;
+
+  border-bottom: 3px solid #3c2f52;
+
+  transition-property: background-color, border-color;
+  transition-duration: 150ms;
+}
+
+/* Hover */
+#custom-term:hover,
+#custom-browser:hover,
+#custom-files:hover {
+  background-color: #2a2030;
+}
+
+/* Optional: active click effect */
+#custom-term:active,
+#custom-browser:active,
+#custom-files:active {
+  border-bottom: 3px solid #bcb0b3;
+}
+

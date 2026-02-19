@@ -1,0 +1,4 @@
+waybar &
+swaybg -c 3c2f52 &
+conky &
+mako &
