@@ -43,8 +43,8 @@
   },
     "custom/term": {
     "format": "",
-    "tooltip": "Alacritty",
-    "on-click": "alacritty"
+    "tooltip": "terminator",
+    "on-click": "terminator"
   }
 
 }
